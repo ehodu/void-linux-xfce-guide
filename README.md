@@ -33,7 +33,7 @@ For example:
 
 _/dev/sda1_ 300M (click on `change`) |
 type: vFAT (FAT32) |
-mout point: _/boot/efi_
+mount point: _/boot/efi_
 
 /dev/sda2 70G (click on `change`) |
 type: ext4 |
