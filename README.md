@@ -60,7 +60,6 @@ ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/NetworkManager /var/service
 ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/lightdm /var/service
-
 ```
 I won't explain how to use _bluetooth_ on it cause a possible way is to start it automatically on start, what is not a good choice. 
 
