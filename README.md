@@ -63,6 +63,6 @@ ln -s /etc/sv/lightdm /var/service
 ```
 I won't explain how to use _bluetooth_ on it cause a possible way is to start it automatically on start, what is not a good choice. 
 
-Done? Then press reboot and enjoy your system! Do it manually first, and one day I'll create a script to configure everything you need. Any question/suggestion? Lemme know. 
+Done? Then type `reboot` and enjoy your system! Do these steps manually first, and one day I'll create a script to configure everything you need. Any question/suggestion? Lemme know. 
 
 (Void is the best distro I've ever tried). 
