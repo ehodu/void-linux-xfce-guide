@@ -21,7 +21,7 @@ In this step, you'll configure network, packages of ISO, mirrors, etc. See:
 
 6 - _RootPassword_. If you don't wanna set any password for root access, just jump it. 
 
-7 - _UserAccount_. Put your username to access system and choose a password for it. Like: _anon_ (user) and _meanon_ (pass). Afte that, choose what the user will control on system. I personally recommend the default choices and also_lp_, _network_, _users_, _storage_. To select options, press `Space`.  
+7 - _UserAccount_. Put your username to access system and choose a password for it. Like: _anon_ (user) and _meanon_ (pass). Afte that, choose what the user will control on system. I personally recommend the default choices and also _lp_, _network_, _users_, _storage_. To select options, press `Space`.  
 
 8 - _BootLoader_. Choose GRUB, and set it to initialize with a graphical interface on your disk of installation. 
 
