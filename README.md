@@ -31,16 +31,16 @@ In this step, you'll configure network, packages of ISO, mirrors, etc. See:
 
 For example: 
 
-_/dev/sda1_ 300M (click on `change`)
-type: vFAT (FAT32)
+_/dev/sda1_ 300M (click on `change`) |
+type: vFAT (FAT32) |
 mout point: _/boot/efi_
 
-/dev/sda2 70G (click on `change`)
-type: ext4
+/dev/sda2 70G (click on `change`) |
+type: ext4 |
 mount point: _/_
 
-/dev/sda3 100G (click on `change`)
-type: ext4
+/dev/sda3 100G (click on `change`) |
+type: ext4 |
 mount point: _/home_
 
 Done, return to the main screen and click to install. Wait for system's installation and reboot system. Take out your USB and wait...
