@@ -23,7 +23,7 @@ In this step, you'll configure network, packages of ISO, mirrors, etc. See:
 
 7 - _UserAccount_. Put your username to access system and choose a password for it. Like: _anon_ (user) and _meanon_ (pass). Afte that, choose what the user will control on system. I personally recommend the default choices and also _lp_, _network_, _users_, _storage_. To select options, press `Space`.  
 
-8 - _BootLoader_. Choose GRUB, and set it to initialize with a graphical interface on your disk of installation. 
+8 - _BootLoader_. Choose disk drive, and set it to initialize with a graphical interface on your disk of installation. 
 
 9 - _Partition_. That's the most simple part, don't be afraid. Select the disk and press for using _cfdisk_ (easy). It will open a black interface to set/delete/change type of partitions at the disk. If you already have partitions on disk, just delete all of them by changing one for one pressing _arrow_key_down_ in each one. Done, create a initial partition with 300M, and change its type to _EFI System_. Create another one to the the main system partition (_/_) and a last one to the the _/home_ partition, and let type by default (Linux filesystem). I don't recommend you using _swap_, do it by your own risk. Press _write_ when you finish it, and _quit_. 
 
