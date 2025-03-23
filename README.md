@@ -1,4 +1,4 @@
-## How to install minimal XFCE on Void Linux step by step? See:
+## How to install minimal XFCE on Void Linux step by step
 
 ### Booting
 Obviously, you'll need a bootable USB drive with the Void base ISO. I strongly recommend Ventoy for this purpose. Download it here: [Ventoy](https://github.com/ventoy/Ventoy). 
@@ -11,7 +11,7 @@ In this step, you'll configure network, packages of ISO, mirrors, etc. See:
 
 1 - _Keyboard_. Choose your default keyboard and press `Enter`. 
 
-2 - _Network_. You'll have to put it manually. Put the network name, the protocol and the pass. For example, if your network's name is _Jane_, your protocol is _wpa_ (most common) and your pass is _jane123_, just do it on the fields. 
+2 - _Network_. You'll have to put it manually. Put the network name, the protocol and the pass. For example, if your network's name is _Jane_, your protocol is _wpa_ (most common) and your pass is _jane123_, just complete the fields. 
 
 3 - _Source_. I strongly recommend select it from ISO, not from network. You'll get a minimal installation of the system by doing that.
 
@@ -19,7 +19,7 @@ In this step, you'll configure network, packages of ISO, mirrors, etc. See:
 
 5 - _Locale_. Basically, the locale you are in. It'll appear with the language abreviation, the country abreviation and the unicode. Like: _en_US-UTF-8_. After that, choose your timezone. For example, _America/Sao_Paulo_. 
 
-6 - _RootPassword_. If you don't wanna set any password for root access, just jump it. 
+6 - _RootPassword_. If you don't wanna set any password for _root_ access, just jump it. 
 
 7 - _UserAccount_. Put your username to access system and choose a password for it. Like: _anon_ (user) and _meanon_ (pass). Afte that, choose what the user will control on system. I personally recommend the default choices and also _lp_, _network_, _users_, _storage_. To select options, press `Space`.  
 
@@ -45,7 +45,7 @@ mount point: _/home_
 
 Done, return to the main screen and click to install. Wait for system's installation and reboot system. Take out your USB and wait...
 
-### Updating things
+### Updating and finishing
 
 Your system will request your _login_ and _pass_. Void, by default, just accept installation of things using `sudo`. So, press `su`, type your pass and press `Enter`. You'll have a cli interface with a _#_. It means it worked. 
 
@@ -61,8 +61,6 @@ ln -s /etc/sv/NetworkManager /var/service
 ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/lightdm /var/service
 ```
-I won't explain how to use _bluetooth_ on it cause a possible way is to start it automatically on start, what is not a good choice. 
+I won't explain how to use _bluetooth_ on it cause it would start automatically on start, what is not a good choice. 
 
-Done? Then type `reboot` and enjoy your system! Do these steps manually first, and one day I'll create a script to configure everything you need. Any question/suggestion? Lemme know. 
-
-(Void is the best distro I've ever tried). 
+Done? Then type `reboot` and enjoy your system! 
