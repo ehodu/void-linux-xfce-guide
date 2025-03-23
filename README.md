@@ -1,7 +1,7 @@
 ## How to install minimal XFCE on Void Linux step by step
 
 ### Booting
-Obviously, you'll need a bootable USB drive with the Void base ISO. I strongly recommend Ventoy for this purpose. Download it here: [Ventoy](https://github.com/ventoy/Ventoy). 
+Obviously, you'll need a bootable USB drive with the Void base ISO. I strongly recommend Ventoy for this purpose. Download it [here](https://github.com/ventoy/Ventoy). 
 
 ### Initializing base system
 Void will open a cli interface and request for a new login. The login is always _anon_ and the pass is _voidlinux_. After logging in, call the script `void-installer`. The screen will show some interfaces to configure network, packages, permissions, etc.
